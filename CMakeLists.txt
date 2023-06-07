@@ -14,6 +14,7 @@ endif()
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} srcs)
 
 add_executable(plot ${srcs})
+SET(CMAKE CXX FLAGS "S(CMAKE CXX FLAGS7 -pthread")
 SET(QT5_MODULES Widgets PrintSupport)
 FIND_PACKAGE(Qt5 REQUIRED COMPONENTS ${QT5_MODULES})
 
